@@ -25,7 +25,7 @@ function SearchBar() {
         <input type="number" id="number-of-hospedes"></input>
       </label>
         <button className="search-button">Buscar</button>
-        <h3 className="plus-filter"> + Filtros </h3>
+        <span className="plus-filter"> + Filtros </span>
       </div>
   );
 }
