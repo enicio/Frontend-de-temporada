@@ -1,0 +1,49 @@
+.searchbar {
+  // background-color: cadetblue;
+  box-shadow: #c4c4c49c 0px 0px 13px 2px;
+  border-radius: 15px;
+  width: 1100px;
+  height: 70px;
+  margin: auto;
+  font-family: 'Jost', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #969db2;
+  label{
+    margin: 0 15px 0 15px;
+    width: 18vw;
+    input {
+      height: 32px;
+      border: none;
+      background-color: #969db22a;
+      padding: 3px;
+      border-radius: 8px;
+      &:hover {
+        background-color: #be121215 ;
+      }
+      &:focus {
+        background-color: #be121215 ;
+      }
+    }
+  }
+  .search-button {
+    border: none;
+    height: 32px;
+    // margin-top: 25px;
+    border-radius: 8px;
+    background-color: #ff1717b0;
+    transition: 300ms;
+    color: #ffffff;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .plus-filter {
+    font-size: small;
+    padding: 5px;
+    // width: 85px;
+  }
+}
