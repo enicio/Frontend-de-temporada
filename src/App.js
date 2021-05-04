@@ -1,20 +1,24 @@
-import { Route }  from 'react-router-dom'
+import { Route, Switch }  from 'react-router-dom'
 import './App.css';
-import Card from './Components/Card';
-import Header from './Components/header';
-import SearchBar from './Components/searchBar';
+import Main from './Pages/main';
+import Clientes from './Pages/clientes';
+import Orcamento from './Pages/orcamento';
+import Calendario from './Pages/calendarios';
+import Propriedades from './Pages/properties';
+import Controle from './Pages/controle';
 
 function App() {
   return (
     <>
-    <Header />
-    <SearchBar />
-    <div className="card-container">
-      <Card />
-      <Card />
-      <Card />
-    </div>
-    </>
+  <Switch>
+    <Route exact path="/" component={Main}/>
+    <Route path="/clientes" component={Clientes}/>
+    <Route path="/orcamentos" component={Orcamento}/>
+    <Route path="/calendario" component={Calendario}/>
+    <Route path="/propriedades" component={Propriedades}/>
+    <Route path="/controle" component={Controle}/>
+  </Switch>
+  </>
   );
 }
 

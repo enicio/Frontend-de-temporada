@@ -5,25 +5,36 @@
   justify-content: space-between;
   margin: 4px;
   // position: fixed;
-
   .logo {
     height: 45px;
   }
   .options {
     display: flex;
     list-style-type: none;
+    a {
+      text-decoration: none;
+      &:visited{
+        color: #969db2;
+      }
+    }
+    .selected {
+      background-color: rgba(250, 103, 58, 0.151);
+      border-radius: 3px;
+      border-bottom: 2px solid #be1212;
+      color: #be1212;
+    }
     li {
       margin: 0 45px 0  45px;
       font-family: 'Jost', sans-serif;
       letter-spacing: 2px;
       color: #969db2;
       transition: 300ms;
-      padding: 2px;
+      padding: 2px 4px;
       cursor: pointer;
       height: 25px;
       &:hover {
-        background-color: rgba(250, 103, 58, 0.37);
-        // border-radius: 5px;
+        background-color: rgba(223, 119, 87, 0.37);
+        border-radius: 3px;
         border-bottom: 2px solid #be1212;
         color: #be1212;
       }
