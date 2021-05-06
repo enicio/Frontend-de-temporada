@@ -1,13 +1,17 @@
+# Frontend de uma pagina de busca por imoveis
 
-## Available Scripts
+Este projeto consiste no desenvolvimento da pagina de busca pro imoveis para aluguel.
+Para o desenvolvimento foi utlizado a biblioteca React e a estilização foi feita com Sass
 
-In the project directory, you can run:
+Para testar o projeto bastar rodar os seguintes comando na pasta raiz
 
-### `yarn start`
+# `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+E na sequencia para iniciar
 
+# `npm start`
 
+Para ver o projeto na browser acesse:
 
+[http://localhost:3000](http://localhost:3000)
 
