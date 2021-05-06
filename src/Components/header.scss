@@ -1,12 +1,14 @@
 .header {
-  width: 98%;
+  width: 100vw;
   height: 80px;
   display: flex;
   justify-content: space-between;
   margin: 4px;
-  // position: fixed;
+  background-color: white;
+  margin: 0;
   .logo {
     height: 45px;
+    padding: 8px;
   }
   .options {
     display: flex;
@@ -45,6 +47,7 @@
       width: 45px;
       height: 45px;
       border-radius: 50%;
+      padding: 8px;
     }
   }
 }

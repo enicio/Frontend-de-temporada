@@ -9,6 +9,7 @@
   padding: 5px;
   font-family: 'Jost', sans-serif;
   color: #6a6e7c;
+  #mapid { height: 180px; }
   .images-details {
     padding: 5px;
     h4 {
@@ -32,6 +33,16 @@
       h2, h4 {
         margin: 2px;
       }
+    }
+    .isActive {
+      color: green;
+      margin-left: 100%;
+      font-weight: 600;
+    }
+    .isDesactive {
+      color: rgb(119, 13, 6);
+      margin-left: 100%;
+      font-weight: 600;
     }
     .mini-cards {
       width: 600px;

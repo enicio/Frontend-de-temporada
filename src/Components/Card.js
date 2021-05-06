@@ -15,7 +15,7 @@ function Card() {
         <li> <span>Total 5 diárias</span> <span>R$ 3500,00</span> </li>
         <li> <span>Taxa de limpeza</span> <span> R$ 200,00</span> </li>
         <li> <span>Caução</span> <span>R$ 1850,00</span> </li>
-        <li> <span>Total</span> <span>R$ 3700,00 | R$ 3330 a vista</span> </li>
+        <li> <span>Total</span> <span className="price">R$ 3700,00 | R$ 3330 a vista</span> </li>
       </ul>
     </div>
 
