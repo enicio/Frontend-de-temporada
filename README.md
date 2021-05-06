@@ -5,11 +5,11 @@ Para o desenvolvimento foi utlizado a biblioteca React e a estilização foi fei
 
 Para testar o projeto bastar rodar os seguintes comando na pasta raiz
 
-# `npm install`
+### `npm install`
 
 E na sequencia para iniciar
 
-# `npm start`
+### `npm start`
 
 Para ver o projeto na browser acesse:
 
